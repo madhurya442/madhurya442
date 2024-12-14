@@ -1,0 +1,5 @@
+with open("/content/madhutxt.txt","a")as file:
+  file.write("Let's learn file handling.\n")
+with open("/content/madhutxt.txt","r")as file:
+     print(file.read())
+    
